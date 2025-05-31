@@ -4,31 +4,34 @@
 
 Aplicação React com TypeScript que exibe um mapa full-screen usando OpenStreetMap (Leaflet) e Nominatim para geocoding.
 Inclui:
-✅ Barra de pesquisa com debounce (2s)
-✅ Resultados flutuantes animados
-✅ Tema light/dark
-✅ SplashScreen até carregamento total
-✅ Pin com coordenadas no clique
-✅ Otimizado para mobile (sem blur)
+
+- ✅ Barra de pesquisa com debounce (2s)
+- ✅ Resultados flutuantes animados
+- ✅ Tema light/dark
+- ✅ SplashScreen até carregamento total
+- ✅ Pin com coordenadas no clique
+- ✅ Otimizado para mobile (sem blur)
 
 ---
 
 ## **🛠 Stack Tecnológica**
 
-Categoria Tecnologia
-Framework React (Vite)
-Linguagem TypeScript
-Gerenciador Bun
-Mapa Leaflet + OpenStreetMap
-Geocoding Nominatim API
-Estilos styled-components
-Fonte Manrope (local)
-Normalize normalize.css personalizado
+| Categoria   | Tecnologia                  |
+| ----------- | --------------------------- |
+| Framework   | React (Vite)                |
+| Linguagem   | TypeScript                  |
+| Gerenciador | Bun                         |
+| Mapa        | Leaflet + OpenStreetMap     |
+| Geocoding   | Nominatim API               |
+| Estilos     | styled-components           |
+| Fonte       | Manrope (local)             |
+| Normalize   | normalize.css personalizado |
 
 ---
 
 ## **📂 Estrutura do Projeto**
 
+```
 src/
 ├── assets/
 │ └── fonts/ # Manrope (woff2)
@@ -51,6 +54,7 @@ src/
 ├── types/
 │ └── nominatim.d.ts # Tipos da API
 └── themes.ts # Cores light/dark
+```
 
 ---
 
